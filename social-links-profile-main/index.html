@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Social links profile</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+
+      @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Overpass:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+  </head>
+  <body>
+    <section id="card">
+      <button id="themeToggle">
+        <img
+          src="assets/images/dark_mode_24dp_E8EAED_FILL1_wght400_GRAD0_opsz24.svg"
+          alt="Dark mode button"
+        />
+        <img
+          src="assets/images/light_mode_24dp_E8EAED_FILL1_wght400_GRAD0_opsz24.svg"
+          alt="Light mode button"
+        />
+      </button>
+      <section id="infoCard">
+        <img
+          src="assets/images/avatar-jessica.jpeg"
+          alt="a photo of a beautiful girl"
+        />
+        <h2 id="name">Jessica Randall</h2>
+        <h5 id="address">London, United Kingdom</h5>
+        <p id="info">"Front-end developer and avid reader."</p>
+      </section>
+      <nav id="linkSection">
+        <button><a class="navLinks" href="">GitHub</a></button>
+        <button><a class="navLinks" href="">Frontend Mentor</a></button>
+        <button><a class="navLinks" href="">LinkedIn</a></button>
+        <button><a class="navLinks" href="">Twitter</a></button>
+        <button><a class="navLinks" href="">Instagram</a></button>
+      </nav>
+    </section>
+    <script src="script.js" defer></script>
+  </body>
+</html>
